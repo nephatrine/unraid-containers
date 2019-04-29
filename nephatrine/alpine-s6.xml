@@ -9,7 +9,7 @@
 
 	<Support>https://github.com/nephatrine/docker-alpine-s6/issues</Support>
 	<Project>https://alpinelinux.org/</Project>
-	<Overview>Alpine, S6, & S6-Overlay (Base)</Overview>
+	<Overview>Alpine, S6, &amp; S6-Overlay (Base)</Overview>
 	<Category>Tools:System</Category>
 	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/alpine-s6.xml</TemplateURL>
 	<Icon>https://files.nephatrine.net/Images/Buttons/Alpine.png</Icon>
