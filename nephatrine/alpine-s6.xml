@@ -7,7 +7,7 @@
 	<Network>bridge</Network>
 	<Privileged>false</Privileged>
 
-	<Support>https://github.com/nephatrine/docker-alpine-s6/issues</Support>
+	<Support>https://code.nephatrine.net/nephatrine/docker-alpine-s6/issues</Support>
 	<Project>https://alpinelinux.org/</Project>
 	<Overview>Alpine, S6, &amp; S6-Overlay (Base)</Overview>
 	<Category>Tools:System</Category>
