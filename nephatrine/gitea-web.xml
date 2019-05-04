@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+	<Name>gitea-web</Name>
+	<Repository>nephatrine/gitea-web</Repository>
+	<Registry>https://hub.docker.com/r/nephatrine/gitea-web/</Registry>
+
+	<Network>bridge</Network>
+	<Privileged>false</Privileged>
+
+	<Support>https://code.nephatrine.net/nephatrine/docker-gitea-web/issues</Support>
+	<Project>https://gitea.io/en-us/</Project>
+	<Overview>Gitea &amp; SQLite</Overview>
+	<Category>Cloud: Productivity: Network:Web</Category>
+	<WebUI>http://[IP]:[PORT:3000]/</WebUI>
+	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/gitea-web.xml</TemplateURL>
+	<Icon>https://files.nephatrine.net/Images/Buttons/Gitea.png</Icon>
+	
+	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+
+	<Config Name="SSH Moduli Size" Target="B_MODULI" Default="4096" Description="Configuration Variable: B_MODULI" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+	<Config Name="SSH DSA Key Size" Target="B_DSA" Default="1024" Description="Configuration Variable: B_DSA" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+	<Config Name="SSH RSA Key Size" Target="B_RSA" Default="4096" Description="Configuration Variable: B_RSA" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+	<Config Name="SSH ECDSA Key Size" Target="B_ECDSA" Default="384" Description="Configuration Variable: B_ECDSA" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+	<Config Name="SSH ed25519 Key Size" Target="B_ED25519" Default="256" Description="Configuration Variable: B_ED25519" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+	
+	<Config Name="HTTP Port" Target="3000" Default="3000" Mode="tcp" Description="Container Port: 3000/tcp" Type="Port" Display="always" Required="true"></Config>
+	<Config Name="SSH Port" Target="22" Default="2020" Mode="tcp" Description="Container Port: 22/tcp" Type="Port" Display="always" Required="false"></Config>
+
+	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/gitea-web" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
+</Container>
