@@ -28,7 +28,6 @@
 	<Config Name="Drone Server Hostname" Target="DRONE_SERVER_HOST" Default="example.net" Description="Configuration Variable: DRONE_SERVER_HOST" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 
 	<Config Name="Server Port" Target="8080" Default="3001" Mode="tcp" Description="Container Port: 8080/tcp" Type="Port" Display="always" Required="true"></Config>
-	<Config Name="Agent Port" Target="3000" Default="3002" Mode="tcp" Description="Container Port: 3000/tcp" Type="Port" Display="always" Required="false"></Config>
 
 	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/drone-ci" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
 	<Config Name="Docker Mount" Target="/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="Container Path: /run/docker.sock" Type="Path" Display="advanced" Required="true"></Config>
