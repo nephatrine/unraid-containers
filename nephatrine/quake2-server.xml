@@ -19,10 +19,10 @@
 
 	<Config Name="Server Port" Target="27910" Default="27910" Mode="udp" Description="Container Port: 27910/udp" Type="Port" Display="always" Required="true"></Config>
 
-	<Config Name="Quake II Mount" Target="/usr/share/games/quake2/baseq2" Default="/mnt/user/appdata/docker-quake2/baseq2" Mode="rw" Description="Container Path: /usr/share/games/quake2/baseq2" Type="Path" Display="always" Required="true"></Config>
-	<Config Name="The Reckoning Mount" Target="/usr/share/games/quake2/xatrix" Default="/mnt/user/appdata/docker-quake2/xatrix" Mode="rw" Description="Container Path: /usr/share/games/quake2/xatrix" Type="Path" Display="always" Required="false"></Config>
-	<Config Name="Ground Zero Mount" Target="/usr/share/games/quake2/rogue" Default="/mnt/user/appdata/docker-quake2/rogue" Mode="rw" Description="Container Path: /usr/share/games/quake2/rogue" Type="Path" Display="always" Required="false"></Config>
-	<Config Name="Zaero Mount" Target="/usr/share/games/quake2/zaero" Default="/mnt/user/appdata/docker-quake2/zaero" Mode="rw" Description="Container Path: /usr/share/games/quake2/zaero" Type="Path" Display="advanced" Required="false"></Config>
-	<Config Name="CTF Mount" Target="/usr/share/games/quake2/ctf" Default="/mnt/user/appdata/docker-quake2/ctf" Mode="rw" Description="Container Path: /usr/share/games/quake2/ctf" Type="Path" Display="always" Required="false"></Config>
-	<Config Name="3rd Zigock Mount" Target="/usr/share/games/quake2/3zb2" Default="/mnt/user/appdata/docker-quake2/3zb2" Mode="rw" Description="Container Path: /usr/share/games/quake2/3zb2" Type="Path" Display="advanced" Required="false"></Config>
+	<Config Name="Quake II Mount" Target="/usr/share/games/quake2/baseq2" Default="/mnt/user/appdata/quake2/baseq2" Mode="rw" Description="Container Path: /usr/share/games/quake2/baseq2" Type="Path" Display="always" Required="true"></Config>
+	<Config Name="The Reckoning Mount" Target="/usr/share/games/quake2/xatrix" Default="/mnt/user/appdata/quake2/xatrix" Mode="rw" Description="Container Path: /usr/share/games/quake2/xatrix" Type="Path" Display="always" Required="false"></Config>
+	<Config Name="Ground Zero Mount" Target="/usr/share/games/quake2/rogue" Default="/mnt/user/appdata/quake2/rogue" Mode="rw" Description="Container Path: /usr/share/games/quake2/rogue" Type="Path" Display="always" Required="false"></Config>
+	<Config Name="Zaero Mount" Target="/usr/share/games/quake2/zaero" Default="/mnt/user/appdata/quake2/zaero" Mode="rw" Description="Container Path: /usr/share/games/quake2/zaero" Type="Path" Display="advanced" Required="false"></Config>
+	<Config Name="CTF Mount" Target="/usr/share/games/quake2/ctf" Default="/mnt/user/appdata/quake2/ctf" Mode="rw" Description="Container Path: /usr/share/games/quake2/ctf" Type="Path" Display="always" Required="false"></Config>
+	<Config Name="3rd Zigock Mount" Target="/usr/share/games/quake2/3zb2" Default="/mnt/user/appdata/quake2/3zb2" Mode="rw" Description="Container Path: /usr/share/games/quake2/3zb2" Type="Path" Display="advanced" Required="false"></Config>
 </Container>
