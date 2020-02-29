@@ -10,11 +10,14 @@
 	<Support>https://code.nephatrine.net/nephatrine/docker-gitea-web/issues</Support>
 	<Project>https://gitea.io/en-us/</Project>
 	<Overview>Gitea &amp; SQLite</Overview>
-	<Category>Cloud: Productivity: Network:Web</Category>
 	<WebUI>http://[IP]:[PORT:3000]/</WebUI>
 	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/gitea-web.xml</TemplateURL>
 	<Icon>https://files.nephatrine.net/Images/Buttons/Gitea.png</Icon>
-	
+
+	<Beta>False</Beta>
+	<Category>Cloud: Network:Web</Category>
+	<Date>2020-01-28</Date>
+
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
