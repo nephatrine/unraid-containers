@@ -12,7 +12,7 @@
 	<Overview>Gitea &amp; SQLite</Overview>
 	<WebUI>http://[IP]:[PORT:3000]/</WebUI>
 	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/gitea-web.xml</TemplateURL>
-	<Icon>https://files.nephatrine.net/Images/Buttons/Gitea.png</Icon>
+	<Icon>https://nephatrine.net/images/buttons/gitea-web.png</Icon>
 
 	<Beta>False</Beta>
 	<Category>Cloud: Network:Web</Category>

@@ -12,7 +12,7 @@
 	<Overview>Docker Registry</Overview>
 	<WebUI>http://[IP]:[PORT:5000]/</WebUI>
 	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/docker-registry.xml</TemplateURL>
-	<Icon>https://files.nephatrine.net/Images/Buttons/Docker.png</Icon>
+	<Icon>https://nephatrine.net/images/buttons/docker-registry.png</Icon>
 
 	<Beta>False</Beta>
 	<Category>Cloud: Network:Web</Category>

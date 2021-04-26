@@ -12,7 +12,7 @@
 	<Overview>Drone &amp; SQLite</Overview>
 	<WebUI>http://[IP]:[PORT:8080]/</WebUI>
 	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/drone-ci.xml</TemplateURL>
-	<Icon>https://files.nephatrine.net/Images/Buttons/Drone.png</Icon>
+	<Icon>https://nephatrine.net/images/buttons/drone-ci.png</Icon>
 
 	<Beta>False</Beta>
 	<Category>Cloud: Network:Web Productivity:</Category>

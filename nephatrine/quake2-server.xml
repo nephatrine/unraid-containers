@@ -11,7 +11,7 @@
 	<Project>https://www.yamagi.org/quake2/</Project>
 	<Overview>Quake II Server</Overview>
 	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/quake2-server.xml</TemplateURL>
-	<Icon>https://files.nephatrine.net/Images/Buttons/QuakeII.png</Icon>
+	<Icon>https://nephatrine.net/images/buttons/quake2-server.png</Icon>
 
 	<Beta>False</Beta>
 	<Category>GameServers:</Category>

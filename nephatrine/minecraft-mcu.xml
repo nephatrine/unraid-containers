@@ -12,7 +12,7 @@
 	<Overview>Minecraft &amp; MCUpdater</Overview>
 	<WebUI>http://[IP]:[PORT:80]/</WebUI>
 	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/minecraft-mcu.xml</TemplateURL>
-	<Icon>https://files.nephatrine.net/Images/Buttons/Minecraft.png</Icon>
+	<Icon>https://nephatrine.net/images/buttons/minecraft-mcu.png</Icon>
 
 	<Beta>False</Beta>
 	<Category>GameServers: Network:Web</Category>
