@@ -23,7 +23,7 @@
 	<Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 
 	<Config Name="Server Name" Target="SERVER_NAME" Default="custom" Description="Configuration Variable: SERVER_NAME" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-	<Config Name="Server Name" Target="SERVER_PUBLIC" Default="127.0.0.1" Description="Configuration Variable: SERVER_PUBLIC" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+	<Config Name="Server Hostname" Target="SERVER_PUBLIC" Default="127.0.0.1" Description="Configuration Variable: SERVER_PUBLIC" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 	<Config Name="Modpack Name" Target="MODPACK_NAME" Default="" Description="Configuration Variable: MODPACK_NAME" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 	<Config Name="Modpack URL" Target="MODPACK_PUBLIC" Default="" Description="Configuration Variable: MODPACK_PUBLIC" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 
