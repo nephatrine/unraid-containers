@@ -15,7 +15,7 @@
 
 	<Beta>False</Beta>
 	<Category>GameServers:</Category>
-	<Date>2020-01-28</Date>
+	<Date>2021-04-26</Date>
 
 	<Config Name="Server Port" Target="27910" Default="27910" Mode="udp" Description="Container Port: 27910/udp" Type="Port" Display="always" Required="true"></Config>
 
