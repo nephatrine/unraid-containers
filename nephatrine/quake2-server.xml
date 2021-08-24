@@ -7,7 +7,7 @@
 	<Network>bridge</Network>
 	<Privileged>false</Privileged>
 
-	<Support>https://code.nephatrine.net/nephatrine/quake2-server/issues</Support>
+	<Support>https://code.nephatrine.net/nephatrine/docker-quake2/issues</Support>
 	<Project>https://www.yamagi.org/quake2/</Project>
 	<Overview>Quake II Server</Overview>
 	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/quake2-server.xml</TemplateURL>
@@ -15,14 +15,15 @@
 
 	<Beta>False</Beta>
 	<Category>GameServers:</Category>
-	<Date>2021-04-26</Date>
+	<Date>2021-08-24</Date>
 
-	<Config Name="Server Port" Target="27910" Default="27910" Mode="udp" Description="Container Port: 27910/udp" Type="Port" Display="always" Required="true"></Config>
+	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 
-	<Config Name="Quake II Mount" Target="/usr/share/games/quake2/baseq2" Default="/mnt/user/appdata/quake2/baseq2" Mode="rw" Description="Container Path: /usr/share/games/quake2/baseq2" Type="Path" Display="always" Required="true"></Config>
-	<Config Name="The Reckoning Mount" Target="/usr/share/games/quake2/xatrix" Default="/mnt/user/appdata/quake2/xatrix" Mode="rw" Description="Container Path: /usr/share/games/quake2/xatrix" Type="Path" Display="always" Required="false"></Config>
-	<Config Name="Ground Zero Mount" Target="/usr/share/games/quake2/rogue" Default="/mnt/user/appdata/quake2/rogue" Mode="rw" Description="Container Path: /usr/share/games/quake2/rogue" Type="Path" Display="always" Required="false"></Config>
-	<Config Name="Zaero Mount" Target="/usr/share/games/quake2/zaero" Default="/mnt/user/appdata/quake2/zaero" Mode="rw" Description="Container Path: /usr/share/games/quake2/zaero" Type="Path" Display="advanced" Required="false"></Config>
-	<Config Name="CTF Mount" Target="/usr/share/games/quake2/ctf" Default="/mnt/user/appdata/quake2/ctf" Mode="rw" Description="Container Path: /usr/share/games/quake2/ctf" Type="Path" Display="always" Required="false"></Config>
-	<Config Name="3rd Zigock Mount" Target="/usr/share/games/quake2/3zb2" Default="/mnt/user/appdata/quake2/3zb2" Mode="rw" Description="Container Path: /usr/share/games/quake2/3zb2" Type="Path" Display="advanced" Required="false"></Config>
+	<Config Name="Start Args" Target="GAME_START" Default="+exec server.cfg" Description="Configuration Variable: GAME_START" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+    
+    <Config Name="Server Port" Target="27910" Default="27910" Mode="udp" Description="Container Port: 27910/udp" Type="Port" Display="always" Required="true"></Config>
+
+	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/quake2-server" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
 </Container>
