@@ -26,4 +26,5 @@
     <Config Name="Server Port" Target="27910" Default="27910" Mode="udp" Description="Container Port: 27910/udp" Type="Port" Display="always" Required="true"></Config>
 
 	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/quake2-server" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
+	<Config Name="Shared Mount" Target="/mnt/shared" Default="" Mode="r" Description="Container Path: /mnt/shared" Type="Path" Display="always" Required="false"></Config>
 </Container>
