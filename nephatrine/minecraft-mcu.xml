@@ -35,6 +35,7 @@
 
 	<Config Name="Modpack Port" Target="80" Default="8085" Mode="tcp" Description="Container Port: 80/tcp" Type="Port" Display="always" Required="true"></Config>
 	<Config Name="Server Port" Target="25565" Default="25565" Mode="tcp" Description="Container Port: 25565/tcp" Type="Port" Display="always" Required="true"></Config>
+	<Config Name="Query Port" Target="25565" Default="25565" Mode="udp" Description="Container Port: 25565/udp" Type="Port" Display="always" Required="false"></Config>
 
 	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/minecraft-mcu" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
 </Container>
