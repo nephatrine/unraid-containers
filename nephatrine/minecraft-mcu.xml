@@ -28,7 +28,6 @@
 	<Config Name="Modpack URL" Target="MODPACK_PUBLIC" Default="" Description="Configuration Variable: MODPACK_PUBLIC" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 
 	<Config Name="Minecraft Version" Target="MINECRAFT_VERSION" Default="1.15.2" Description="Configuration Variable: MINECRAFT_VERSION" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-	<Config Name="Minecraft Forge Version" Target="FORGE_VERSION" Default="" Description="Configuration Variable: FORGE_VERSION" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Fabric Loader Version" Target="FABRIC_VERSION" Default="" Description="Configuration Variable: FABRIC_VERSION" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Fabric Installer Version" Target="FABRIC_INSTALLER_VERSION" Default="release" Description="Configuration Variable: FABRIC_INSTALLER_VERSION" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 	<Config Name="Java Options" Target="JAVA_OPTS" Default="-XX:+UseG1GC -Xms4G -Xmx4G" Description="Configuration Variable: JAVA_OPTS" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
