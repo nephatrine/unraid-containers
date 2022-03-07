@@ -24,7 +24,7 @@
 	<Config Name="Start Args" Target="GAME_START" Default="+set port 27911 +exec server.cfg" Description="Configuration Variable: GAME_START" Type="Variable" Display="always" Required="true" Mask="false"></Config>
     
     <Config Name="Server Port 1" Target="27910" Default="" Mode="udp" Description="Container Port: 27910/udp" Type="Port" Display="always" Required="false"></Config>
-    <Config Name="Server Port 2" Target="27911" Default="27911" Mode="udp" Description="Container Port: 27911/udp" Type="Port" Display="always" Required="false"></Config>
+    <Config Name="Server Port 2" Target="27911" Default="" Mode="udp" Description="Container Port: 27911/udp" Type="Port" Display="always" Required="false"></Config>
     <Config Name="Server Port 3" Target="27912" Default="" Mode="udp" Description="Container Port: 27912/udp" Type="Port" Display="always" Required="false"></Config>
     <Config Name="Server Port 4" Target="27913" Default="" Mode="udp" Description="Container Port: 27913/udp" Type="Port" Display="always" Required="false"></Config>
 
