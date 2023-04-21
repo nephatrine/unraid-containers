@@ -7,7 +7,7 @@
 	<Network>bridge</Network>
 	<Privileged>false</Privileged>
 
-	<Support>https://code.nephatrine.net/nephatrine/docker-alpine-s6/issues</Support>
+	<Support>https://code.nephatrine.net/NephNET/docker-alpine-s6/issues</Support>
 	<Project>https://alpinelinux.org/</Project>
 	<Overview>Alpine, S6, &amp; S6-Overlay (Base)</Overview>
 	<Category>Tools:System</Category>
@@ -15,8 +15,7 @@
 	<Icon>https://nephatrine.net/images/buttons/alpine-s6.png</Icon>
 
 	<Beta>False</Beta>
-	<Category>Tools:</Category>
-	<Date>2021-04-26</Date>
+	<Date>2023-04-21</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>

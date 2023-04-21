@@ -7,14 +7,14 @@
 	<Network>bridge</Network>
 	<Privileged>false</Privileged>
 
-	<Support>https://code.nephatrine.net/nephatrine/docker-gitea-act/issues</Support>
+	<Support>https://code.nephatrine.net/NephNET/docker-gitea-act/issues</Support>
 	<Project>https://gitea.com/gitea/act_runner</Project>
 	<Overview>Gitea-Runner</Overview>
 	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/gitea-runner.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/buttons/gitea-web.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2023-04-16</Date>
+	<Date>2023-04-21</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
