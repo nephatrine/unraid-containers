@@ -3,6 +3,12 @@
 Just paste this into **Docker Repositories** on the **Docker** tab:
 
 ~~~
+https://code.nephatrine.net/NephNET/unraid-containers
+~~~
+
+- or -
+
+~~~
 https://github.com/nephatrine/unraid-containers
 ~~~
 
@@ -35,5 +41,5 @@ Beginning with Unraid 6.10.0-rc1, the entire Template Repositories section has b
 I believe there may be a third option, but I don't have a fresh unRAID install to test with:
 
 ```bash
-echo 'https://github.com/nephatrine/unraid-containers' >>/config/plugins/dockerMan/template-repos
+echo 'https://code.nephatrine.net/NephNET/unraid-containers' >>/config/plugins/dockerMan/template-repos
 ```
