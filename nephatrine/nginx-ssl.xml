@@ -7,7 +7,7 @@
 	<Network>bridge</Network>
 	<Privileged>false</Privileged>
 
-	<Support>https://code.nephatrine.net/nephatrine/docker-nginx-ssl/issues</Support>
+	<Support>https://code.nephatrine.net/NephNET/docker-nginx-ssl/issues</Support>
 	<Project>https://www.nginx.com/</Project>
 	<Overview>NGINX &amp; LetsEncrypt</Overview>
 	<WebUI>http://[IP]:[PORT:80]/</WebUI>
@@ -15,8 +15,7 @@
 	<Icon>https://nephatrine.net/images/buttons/nginx-ssl.png</Icon>
 
 	<Beta>False</Beta>
-	<Category>Network:Proxy Network:Web</Category>
-	<Date>2021-04-30</Date>
+	<Date>2023-04-30</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
