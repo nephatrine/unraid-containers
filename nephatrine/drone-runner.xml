@@ -10,7 +10,7 @@
 	<Support>https://code.nephatrine.net/NephNET/docker-drone-run/issues</Support>
 	<Project>https://docs.drone.io/runner/docker/overview/</Project>
 	<Overview>Drone-Runner-Docker</Overview>
-	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/drone-runner.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/drone-runner.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/buttons/drone-ci.png</Icon>
 
 	<Beta>False</Beta>

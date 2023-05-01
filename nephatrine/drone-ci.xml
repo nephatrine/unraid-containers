@@ -11,7 +11,7 @@
 	<Project>https://drone.io/</Project>
 	<Overview>Drone &amp; SQLite</Overview>
 	<WebUI>http://[IP]:[PORT:8080]/</WebUI>
-	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/drone-ci.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/drone-ci.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/buttons/drone-ci.png</Icon>
 
 	<Beta>False</Beta>

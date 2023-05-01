@@ -11,7 +11,7 @@
 	<Project>https://larsjung.de/h5ai/</Project>
 	<Overview>NGINX, PHP &amp; H5AI</Overview>
 	<WebUI>http://[IP]:[PORT:80]/</WebUI>
-	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/nginx-h5ai.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/nginx-h5ai.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/buttons/nginx-h5ai.png</Icon>
 
 	<Beta>False</Beta>

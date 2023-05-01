@@ -10,7 +10,7 @@
 	<Support>https://code.nephatrine.net/nephatrine/docker-quake2/issues</Support>
 	<Project>https://www.yamagi.org/quake2/</Project>
 	<Overview>Quake II Server (NGINX)</Overview>
-	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/quake2-plus-http.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/quake2-plus-http.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/buttons/quake2-server.png</Icon>
 
 	<Beta>False</Beta>

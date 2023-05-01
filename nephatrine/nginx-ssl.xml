@@ -11,7 +11,7 @@
 	<Project>https://www.nginx.com/</Project>
 	<Overview>NGINX &amp; LetsEncrypt</Overview>
 	<WebUI>http://[IP]:[PORT:80]/</WebUI>
-	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/nginx-ssl.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/nginx-ssl.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/buttons/nginx-ssl.png</Icon>
 
 	<Beta>False</Beta>

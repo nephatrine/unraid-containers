@@ -11,7 +11,7 @@
 	<Project>https://minecraft.net/</Project>
 	<Overview>Minecraft &amp; MCUpdater</Overview>
 	<WebUI>http://[IP]:[PORT:80]/</WebUI>
-	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/minecraft-mcu.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/minecraft-mcu.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/buttons/minecraft-mcu.png</Icon>
 
 	<Beta>False</Beta>

@@ -10,7 +10,7 @@
 	<Support>https://code.nephatrine.net/NephNET/docker-gitea-act/issues</Support>
 	<Project>https://gitea.com/gitea/act_runner</Project>
 	<Overview>Gitea-Runner</Overview>
-	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/gitea-runner.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/gitea-runner.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/buttons/gitea-web.png</Icon>
 
 	<Beta>False</Beta>
