@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+	<Name>starbound-scmd</Name>
+	<Repository>nephatrine/starbound-scmd:latest</Repository>
+	<Registry>https://hub.docker.com/r/nephatrine/starbound-scmd/</Registry>
+
+	<Network>bridge</Network>
+	<Privileged>false</Privileged>
+
+	<Support>https://code.nephatrine.net/NephNET/docker-starbound-scmd/issues</Support>
+	<Project>https://playstarbound.com/</Project>
+	<Overview>Starbound Server</Overview>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/starbound-scmd.xml</TemplateURL>
+	<Icon>https://nephatrine.net/images/buttons/starbound-scmd.png</Icon>
+
+	<Beta>False</Beta>
+	<Date>2023-06-13</Date>
+
+    <Config Name="Game Port" Target="21025" Default="" Mode="tcp" Description="Container Port: 21025/tcp" Type="Port" Display="always" Required="false"></Config>
+    <Config Name="RCON Port" Target="21026" Default="" Mode="udp" Description="Container Port: 21026/udp" Type="Port" Display="always" Required="false"></Config>
+
+	<Config Name="Game Data" Target="/opt/starbound-dedicated" Default="/mnt/user/appdata/starbound-scmd" Mode="rw" Description="Container Path: /opt/starbound-dedicated" Type="Path" Display="always" Required="true"></Config>
+</Container>
