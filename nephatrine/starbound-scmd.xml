@@ -14,10 +14,11 @@
 	<Icon>https://nephatrine.net/images/buttons/starbound-scmd.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2023-06-13</Date>
+	<Date>2023-06-19</Date>
 
     <Config Name="Game Port" Target="21025" Default="21025" Mode="tcp" Description="Container Port: 21025/tcp" Type="Port" Display="always" Required="false"></Config>
-    <Config Name="RCON Port" Target="21026" Default="21026" Mode="udp" Description="Container Port: 21026/udp" Type="Port" Display="always" Required="false"></Config>
+    <Config Name="Query Port" Target="21025" Default="21025" Mode="udp" Description="Container Port: 21025/udp" Type="Port" Display="always" Required="false"></Config>
+    <Config Name="RCon Port" Target="21026" Default="21026" Mode="tcp" Description="Container Port: 21026/tcp" Type="Port" Display="always" Required="false"></Config>
 
 	<Config Name="Game Data" Target="/opt/starbound-dedicated" Default="/mnt/user/appdata/starbound-scmd" Mode="rw" Description="Container Path: /opt/starbound-dedicated" Type="Path" Display="always" Required="true"></Config>
 </Container>
