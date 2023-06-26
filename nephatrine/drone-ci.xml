@@ -15,7 +15,7 @@
 	<Icon>https://nephatrine.net/images/buttons/drone-ci.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2023-04-30</Date>
+	<Date>2023-06-25</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
@@ -29,7 +29,7 @@
 	<Config Name="Drone Server Protocol" Target="DRONE_SERVER_PROTO" Default="http" Description="Configuration Variable: DRONE_SERVER_PROTO" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 	<Config Name="Drone Server Hostname" Target="DRONE_SERVER_HOST" Default="example.net" Description="Configuration Variable: DRONE_SERVER_HOST" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 
-	<Config Name="Server Port" Target="8080" Default="3001" Mode="tcp" Description="Container Port: 8080/tcp" Type="Port" Display="always" Required="true"></Config>
+	<Config Name="Server Port" Target="8080" Default="3010" Mode="tcp" Description="Container Port: 8080/tcp" Type="Port" Display="always" Required="true"></Config>
 
 	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/drone-ci" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
 </Container>

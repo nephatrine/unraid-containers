@@ -15,7 +15,7 @@
 	<Icon>https://nephatrine.net/images/buttons/nginx-h5ai.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2023-06-21</Date>
+	<Date>2023-06-25</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
@@ -31,7 +31,7 @@
 	<Config Name="SSL RSA Key Size" Target="B_RSA" Default="4096" Description="Configuration Variable: B_RSA" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 	<Config Name="SSL ECDSA Key Size" Target="B_ECDSA" Default="384" Description="Configuration Variable: B_ECDSA" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 	
-	<Config Name="HTTP Port" Target="80" Default="9013" Mode="tcp" Description="Container Port: 80/tcp" Type="Port" Display="always" Required="true"></Config>
+	<Config Name="HTTP Port" Target="80" Default="9030" Mode="tcp" Description="Container Port: 80/tcp" Type="Port" Display="always" Required="true"></Config>
 	<Config Name="HTTPS Port" Target="443" Default="" Mode="tcp" Description="Container Port: 443/tcp" Type="Port" Display="advanced" Required="false"></Config>
 	<Config Name="QUIC Port" Target="443" Default="" Mode="udp" Description="Container Port: 443/udp" Type="Port" Display="advanced" Required="false"></Config>
 
