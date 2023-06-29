@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+	<Name>write-freely</Name>
+	<Repository>nephatrine/write-freely</Repository>
+	<Registry>https://hub.docker.com/r/nephatrine/write-freely/</Registry>
+
+	<Network>bridge</Network>
+	<Privileged>false</Privileged>
+
+	<Support>https://code.nephatrine.net/NephNET/docker-write-freely/issues</Support>
+	<Project>https://writefreely.org/</Project>
+	<Overview>WriteFreely &amp; SQLite</Overview>
+	<WebUI>http://[IP]:[PORT:8080]/</WebUI>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/write-freely.xml</TemplateURL>
+	<Icon>https://nephatrine.net/images/docker/write-freely.png</Icon>
+
+	<Beta>False</Beta>
+	<Date>2023-06-29</Date>
+
+	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+
+	<Config Name="HTTP Port" Target="8080" Default="9050" Mode="tcp" Description="Container Port: 8080/tcp" Type="Port" Display="always" Required="true"></Config>
+	<Config Name="Gopher Port" Target="70" Default="70" Mode="tcp" Description="Container Port: 70/tcp" Type="Port" Display="always" Required="false"></Config>
+
+	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/write-freely" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
+</Container>
