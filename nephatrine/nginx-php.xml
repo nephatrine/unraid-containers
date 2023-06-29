@@ -12,10 +12,10 @@
 	<Overview>NGINX &amp; PHP</Overview>
 	<WebUI>http://[IP]:[PORT:80]/</WebUI>
 	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/nginx-php.xml</TemplateURL>
-	<Icon>https://nephatrine.net/images/buttons/nginx-php.png</Icon>
+	<Icon>https://nephatrine.net/images/docker/nginx-php.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2023-06-25</Date>
+	<Date>2023-06-29</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>

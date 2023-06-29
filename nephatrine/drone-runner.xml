@@ -11,10 +11,10 @@
 	<Project>https://docs.drone.io/runner/docker/overview/</Project>
 	<Overview>Drone-Runner-Docker</Overview>
 	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/drone-runner.xml</TemplateURL>
-	<Icon>https://nephatrine.net/images/buttons/drone-ci.png</Icon>
+	<Icon>https://nephatrine.net/images/docker/drone-runner.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2023-04-22</Date>
+	<Date>2023-06-29</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>

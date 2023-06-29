@@ -11,10 +11,10 @@
 	<Project>https://www.yamagi.org/quake2/</Project>
 	<Overview>Quake II Server</Overview>
 	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/quake2-server.xml</TemplateURL>
-	<Icon>https://nephatrine.net/images/buttons/quake2-server.png</Icon>
+	<Icon>https://nephatrine.net/images/docker/quake2-server.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2023-05-04</Date>
+	<Date>2023-06-29</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
