@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+	<Name>remark42-ce</Name>
+	<Repository>nephatrine/remark42-ce</Repository>
+	<Registry>https://hub.docker.com/r/nephatrine/remark42-ce/</Registry>
+
+	<Network>bridge</Network>
+	<Privileged>false</Privileged>
+
+	<Support>https://code.nephatrine.net/NephNET/docker-remark42-ce/issues</Support>
+	<Project>https://remark42.com/</Project>
+	<Overview>Remark42 Comment Engine</Overview>
+	<WebUI>http://[IP]:[PORT:8080]/web</WebUI>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/remark42-ce.xml</TemplateURL>
+	<Icon>https://nephatrine.net/images/docker/remark42-ce.png</Icon>
+
+	<Beta>False</Beta>
+	<Date>2023-07-06</Date>
+
+	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+
+	<Config Name="HTTP Port" Target="8080" Default="9060" Mode="tcp" Description="Container Port: 8080/tcp" Type="Port" Display="always" Required="true"></Config>
+
+	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/remark42-ce" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
+</Container>
