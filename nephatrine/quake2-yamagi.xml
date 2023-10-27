@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
 	<Name>quake2-yamagi</Name>
-	<Repository>nephatrine/quake2-server:yamagi-latest</Repository>
+	<Repository>nephatrine/quake2-server:yamagi</Repository>
 	<Registry>https://hub.docker.com/r/nephatrine/quake2-server/</Registry>
 
 	<Network>bridge</Network>
