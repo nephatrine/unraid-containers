@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+	<Name>vaultwarden</Name>
+	<Repository>code.nephatrine.net/nephnet/vaultwarden</Repository>
+
+	<Network>bridge</Network>
+	<Privileged>false</Privileged>
+
+	<Support>https://code.nephatrine.net/NephNET/docker-vaultwarden/issues</Support>
+	<Project>https://www.vaultwarden.net/</Project>
+	<Overview>VaultWarden</Overview>
+	<WebUI>http://[IP]:[PORT:80]/</WebUI>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/vaultwarden.xml</TemplateURL>
+	<Icon>https://nephatrine.net/images/docker/vaultwarden.png</Icon>
+
+	<Beta>False</Beta>
+	<Date>2025-04-06</Date>
+
+	<Config Name="HTTP Port" Target="80" Default="8086" Mode="tcp" Description="Container Port: 80/tcp" Type="Port" Display="always" Required="true"></Config>
+
+	<Config Name="Configuration Mount" Target="/data" Default="/mnt/user/appdata/vaultwarden" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true"></Config>
+</Container>
