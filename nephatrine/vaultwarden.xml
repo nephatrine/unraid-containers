@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
 	<Name>vaultwarden</Name>
-	<Repository>code.nephatrine.net/nephnet/vaultwarden</Repository>
+	<Repository>nephatrine/vaultwarden</Repository>
+	<Registry>https://hub.docker.com/r/nephatrine/vaultwarden/</Registry>
 
 	<Network>bridge</Network>
 	<Privileged>false</Privileged>
@@ -15,6 +16,9 @@
 
 	<Beta>False</Beta>
 	<Date>2025-04-06</Date>
+
+	<Config Name="Admin Page Token" Target="ADMIN_TOKEN" Default="" Description="Configuration Variable: ADMIN_TOKEN" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Experimental Flags" Target="EXPERIMENTAL_CLIENT_FEATURE_FLAGS" Default="fido2-vault-credentials,ssh-key-vault-item,ssh-agent" Description="Configuration Variable: EXPERIMENTAL_CLIENT_FEATURE_FLAGS" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 
 	<Config Name="HTTP Port" Target="80" Default="8086" Mode="tcp" Description="Container Port: 80/tcp" Type="Port" Display="always" Required="true"></Config>
 
