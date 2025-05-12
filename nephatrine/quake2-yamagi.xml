@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
 	<Name>quake2-yamagi</Name>
-	<Repository>nephatrine/quake2-server:yamagi</Repository>
-	<Registry>https://hub.docker.com/r/nephatrine/quake2-server/</Registry>
+	<Repository>nephatrine/quake2-yamagi:latest</Repository>
+	<Registry>https://hub.docker.com/r/nephatrine/quake2-yamagi/</Registry>
 
 	<Network>bridge</Network>
 	<Privileged>false</Privileged>
@@ -14,7 +14,7 @@
 	<Icon>https://nephatrine.net/images/docker/quake2-yamagi.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2023-07-11</Date>
+	<Date>2025-05-12</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
