@@ -15,7 +15,7 @@
 	<Icon>https://nephatrine.net/images/docker/drone-ci.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2023-06-29</Date>
+	<Date>2025-04-02</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
