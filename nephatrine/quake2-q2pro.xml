@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
-	<Name>quake2-yamagi</Name>
-	<Repository>nephatrine/quake2-yamagi:latest</Repository>
-	<Registry>https://hub.docker.com/r/nephatrine/quake2-yamagi/</Registry>
+	<Name>quake2-q2pro</Name>
+	<Repository>nephatrine/quake2-q2pro:latest</Repository>
+	<Registry>https://hub.docker.com/r/nephatrine/quake2-q2pro/</Registry>
 
 	<Network>bridge</Network>
 	<Privileged>false</Privileged>
 
-	<Support>https://code.nephatrine.net/NephNET/docker-quake2-yamagi/issues</Support>
-	<Project>https://www.yamagi.org/quake2/</Project>
-	<Overview>Yamagi Quake II Dedicated Server</Overview>
-	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/quake2-yamagi.xml</TemplateURL>
-	<Icon>https://nephatrine.net/images/docker/quake2-yamagi.png</Icon>
+	<Support>https://code.nephatrine.net/NephNET/docker-quake2-q2pro/issues</Support>
+	<Project>https://github.com/skullernet/q2pro</Project>
+	<Overview>Q2Pro Dedicated Server</Overview>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/quake2-q2pro.xml</TemplateURL>
+	<Icon>https://nephatrine.net/images/docker/quake2-q2pro.png</Icon>
 
 	<Beta>False</Beta>
 	<Date>2025-05-14</Date>
@@ -31,7 +31,7 @@
     <Config Name="Server Port 3" Target="27912" Default="" Mode="udp" Description="Container Port: 27912/udp" Type="Port" Display="always" Required="false"></Config>
     <Config Name="Server Port 4" Target="27913" Default="" Mode="udp" Description="Container Port: 27913/udp" Type="Port" Display="always" Required="false"></Config>
 
-	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/quake2-yamagi" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
+	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/quake2-q2pro" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
 	<Config Name="Shared Mount" Target="/mnt/shared" Default="" Mode="r" Description="Container Path: /mnt/shared" Type="Path" Display="always" Required="false"></Config>
 	<Config Name="Mirror Mount" Target="/mnt/mirror" Default="" Mode="r" Description="Container Path: /mnt/mirror" Type="Path" Display="always" Required="false"></Config>
 </Container>
