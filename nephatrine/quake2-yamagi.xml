@@ -14,7 +14,7 @@
 	<Icon>https://nephatrine.net/images/docker/quake2-yamagi.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2025-05-14</Date>
+	<Date>2025-05-18</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
@@ -22,14 +22,14 @@
 
 	<Config Name="Start Args" Target="GAME_START" Default="+set port 27910 +exec server.cfg" Description="Configuration Variable: GAME_START" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 
-	<Config Name="Data Volume" Target="QUAKE2_DATA" Default="" Description="Configuration Variable: QUAKE2_DATA" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-	<Config Name="Install Volume" Target="QUAKE2_INSTALL" Default="" Description="Configuration Variable: QUAKE2_INSTALL" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-	<Config Name="Mirror Volume" Target="QUAKE2_MIRROR" Default="" Description="Configuration Variable: QUAKE2_MIRROR" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Data Path" Target="QUAKE2_DATA" Default="" Description="Configuration Variable: QUAKE2_DATA" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Install Path" Target="QUAKE2_INSTALL" Default="" Description="Configuration Variable: QUAKE2_INSTALL" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mirror Path" Target="QUAKE2_MIRROR" Default="" Description="Configuration Variable: QUAKE2_MIRROR" Type="Variable" Display="always" Required="false" Mask="false"></Config>
     
     <Config Name="Server Port 1" Target="27910" Default="" Mode="udp" Description="Container Port: 27910/udp" Type="Port" Display="always" Required="false"></Config>
-    <Config Name="Server Port 2" Target="27911" Default="" Mode="udp" Description="Container Port: 27911/udp" Type="Port" Display="always" Required="false"></Config>
-    <Config Name="Server Port 3" Target="27912" Default="" Mode="udp" Description="Container Port: 27912/udp" Type="Port" Display="always" Required="false"></Config>
-    <Config Name="Server Port 4" Target="27913" Default="" Mode="udp" Description="Container Port: 27913/udp" Type="Port" Display="always" Required="false"></Config>
+    <Config Name="Server Port 2" Target="27911" Default="" Mode="udp" Description="Container Port: 27911/udp" Type="Port" Display="advanced" Required="false"></Config>
+    <Config Name="Server Port 3" Target="27912" Default="" Mode="udp" Description="Container Port: 27912/udp" Type="Port" Display="advanced" Required="false"></Config>
+    <Config Name="Server Port 4" Target="27913" Default="" Mode="udp" Description="Container Port: 27913/udp" Type="Port" Display="advanced" Required="false"></Config>
 
 	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/quake2-yamagi" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
 	<Config Name="Shared Mount" Target="/mnt/shared" Default="" Mode="r" Description="Container Path: /mnt/shared" Type="Path" Display="always" Required="false"></Config>

@@ -10,12 +10,11 @@
 	<Support>https://code.nephatrine.net/NephNET/docker-alpine-s6/issues</Support>
 	<Project>https://alpinelinux.org/</Project>
 	<Overview>Alpine, S6, &amp; S6-Overlay (Base)</Overview>
-	<Category>Tools:System</Category>
 	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/alpine-s6.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/docker/alpine-s6.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2023-06-29</Date>
+	<Date>2025-05-18</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>

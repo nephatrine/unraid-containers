@@ -14,15 +14,15 @@
 	<Icon>https://nephatrine.net/images/docker/gitea-runner.png</Icon>
 
 	<Beta>False</Beta>
-	<Date>2025-05-12</Date>
+	<Date>2025-05-18</Date>
 
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 
 	<Config Name="Gitea Instance" Target="GITEA_INSTANCE_URL" Default="https://try.gitea.io/" Description="Configuration Variable: GITEA_INSTANCE_URL" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-	<Config Name="Runner Token" Target="GITEA_RUNNER_REGISTRATION_TOKEN" Default="" Description="Configuration Variable: GITEA_RUNNER_REGISTRATION_TOKEN" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-	<Config Name="Runner Name" Target="GITEA_RUNNER_NAME" Default="" Description="Configuration Variable: GITEA_RUNNER_NAME" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Runner Token" Target="GITEA_RUNNER_REGISTRATION_TOKEN" Default="" Description="Configuration Variable: GITEA_RUNNER_REGISTRATION_TOKEN" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+	<Config Name="Runner Name" Target="GITEA_RUNNER_NAME" Default="" Description="Configuration Variable: GITEA_RUNNER_NAME" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 
 	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/gitea-runner" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
 	<Config Name="Docker Mount" Target="/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="Container Path: /run/docker.sock" Type="Path" Display="advanced" Required="true"></Config>
