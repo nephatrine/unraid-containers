@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+	<Name>ergo-irc</Name>
+	<Repository>nephatrine/ergo-irc</Repository>
+	<Registry>https://hub.docker.com/r/nephatrine/ergo-irc/</Registry>
+
+	<Network>bridge</Network>
+	<Privileged>false</Privileged>
+
+	<Support>https://code.nephatrine.net/NephNET/docker-ergo-irc/issues</Support>
+	<Project>https://ergo.chat/</Project>
+	<Overview>Ergo IRC</Overview>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/ergo-irc.xml</TemplateURL>
+	<Icon>https://nephatrine.net/images/docker/ergo-irc.png</Icon>
+
+	<Beta>False</Beta>
+	<Date>2025-05-18</Date>
+
+	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+
+	<Config Name="MariaDB Password" Target="MARIADB_ERGO_PASSWORD" Default="hunter2" Description="Configuration Variable: MARIADB_ERGO_PASSWORD" Type="Variable" Display="always" Required="false" Mask="true"></Config>
+
+    <Config Name="IRC Insecure Port" Target="6667" Default="6667" Mode="tcp" Description="Container Port: 6667/tcp" Type="Port" Display="always" Required="false"></Config>
+    <Config Name="IRC SSL/TLS Port" Target="6697" Default="6697" Mode="tcp" Description="Container Port: 6697/tcp" Type="Port" Display="always" Required="false"></Config>
+    <Config Name="IRC WebSocket Port" Target="8097" Default="8097" Mode="tcp" Description="Container Port: 8097/tcp" Type="Port" Display="always" Required="false"></Config>
+
+	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/ergo-irc" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
+	<Config Name="NGINX Mount" Target="/mnt/nginx" Default="" Mode="rw" Description="Container Path: /mnt/nginx" Type="Path" Display="advanced" Required="false"></Config>
+</Container>
