@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+	<Name>discord-irc</Name>
+	<Repository>nephatrine/discord-irc</Repository>
+	<Registry>https://hub.docker.com/r/nephatrine/discord-irc/</Registry>
+
+	<Network>bridge</Network>
+	<Privileged>false</Privileged>
+
+	<Support>https://code.nephatrine.net/NephNET/docker-discord-irc/issues</Support>
+	<Project>https://github.com/reactiflux/discord-irc</Project>
+	<Overview>Discord IRC Bridge</Overview>
+	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/discord-irc.xml</TemplateURL>
+	<Icon>https://nephatrine.net/images/docker/discord-irc.png</Icon>
+
+	<Beta>False</Beta>
+	<Date>2025-05-18</Date>
+
+	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+
+	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/discord-irc" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
+</Container>
