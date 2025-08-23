@@ -20,10 +20,10 @@
 	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
-	<Config Name="DNS Resolver(s)" Target="DNSADDR" Default="8.8.8.8 8.8.4.4" Description="Configuration Variable: DNSADDR" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 
 	<Config Name="Admin IP" Target="ADMINIP" Default="127.0.0.1" Description="Configuration Variable: ADMINIP" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 	<Config Name="Trusted Subnet" Target="TRUSTSN" Default="192.168.0.0/16" Description="Configuration Variable: TRUSTSN" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+	<Config Name="DNS Resolver(s)" Target="DNSADDR" Default="8.8.8.8 8.8.4.4" Description="Configuration Variable: DNSADDR" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 
 	<Config Name="SSL Domain(s)" Target="SSLDOMAINS" Default="" Description="Configuration Variable: SSLDOMAINS" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="SSL Email" Target="SSLEMAIL" Default="" Description="Configuration Variable: SSLEMAIL" Type="Variable" Display="always" Required="false" Mask="false"></Config>
