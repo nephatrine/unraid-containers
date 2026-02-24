@@ -14,7 +14,7 @@ SPDX-License-Identifier: ISC
 	<Support>https://code.nephatrine.net/NephNET/docker-alpine-s6/issues</Support>
 	<Project>https://alpinelinux.org/</Project>
 	<Overview>Alpine, S6, &amp; S6-Overlay (Base)</Overview>
-	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/alpine-s6.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/alpine-s6.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/docker/alpine-s6.png</Icon>
 
 	<Beta>False</Beta>

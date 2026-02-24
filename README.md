@@ -44,5 +44,5 @@ I believe there may be a third option, but I don't have a fresh unRAID install
 to test with:
 
 ```sh
-echo 'https://code.nephatrine.net/NephNET/unraid-containers' >>/config/plugins/dockerMan/template-repos
+echo 'https://code.nephatrine.net/nephatrine/unraid-containers' >>/config/plugins/dockerMan/template-repos
 ```

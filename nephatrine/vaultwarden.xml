@@ -15,7 +15,7 @@ SPDX-License-Identifier: ISC
 	<Project>https://www.vaultwarden.net/</Project>
 	<Overview>VaultWarden</Overview>
 	<WebUI>http://[IP]:[PORT:80]/</WebUI>
-	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/vaultwarden.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/vaultwarden.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/docker/vaultwarden.png</Icon>
 
 	<Beta>False</Beta>

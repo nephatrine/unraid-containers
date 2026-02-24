@@ -14,7 +14,7 @@ SPDX-License-Identifier: ISC
 	<Support>https://code.nephatrine.net/NephNET/docker-ergo-irc/issues</Support>
 	<Project>https://ergo.chat/</Project>
 	<Overview>Ergo IRC</Overview>
-	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/ergo-irc.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/ergo-irc.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/docker/ergo-irc.png</Icon>
 
 	<Beta>False</Beta>

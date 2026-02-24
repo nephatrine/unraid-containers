@@ -14,7 +14,7 @@ SPDX-License-Identifier: ISC
 	<Support>https://code.nephatrine.net/NephNET/docker-quake2-q2pro/issues</Support>
 	<Project>https://github.com/skullernet/q2pro</Project>
 	<Overview>Q2Pro Dedicated Server</Overview>
-	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/quake2-q2pro.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/quake2-q2pro.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/docker/quake2-q2pro.png</Icon>
 
 	<Beta>False</Beta>

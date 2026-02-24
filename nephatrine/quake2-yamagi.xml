@@ -14,7 +14,7 @@ SPDX-License-Identifier: ISC
 	<Support>https://code.nephatrine.net/NephNET/docker-quake2-yamagi/issues</Support>
 	<Project>https://www.yamagi.org/quake2/</Project>
 	<Overview>Yamagi Quake II Dedicated Server</Overview>
-	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/quake2-yamagi.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/quake2-yamagi.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/docker/quake2-yamagi.png</Icon>
 
 	<Beta>False</Beta>

@@ -14,7 +14,7 @@ SPDX-License-Identifier: ISC
 	<Support>https://code.nephatrine.net/NephNET/docker-discord-irc/issues</Support>
 	<Project>https://github.com/reactiflux/discord-irc</Project>
 	<Overview>Discord IRC Bridge</Overview>
-	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/discord-irc.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/discord-irc.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/docker/discord-irc.png</Icon>
 
 	<Beta>False</Beta>

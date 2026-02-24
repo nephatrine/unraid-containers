@@ -14,7 +14,7 @@ SPDX-License-Identifier: ISC
 	<Support>https://code.nephatrine.net/NephNET/docker-limnoria-irc/issues</Support>
 	<Project>https://limnoria.net/</Project>
 	<Overview>Limnoria Bot</Overview>
-	<TemplateURL>https://code.nephatrine.net/NephNET/unraid-containers/raw/branch/master/nephatrine/limnoria-irc.xml</TemplateURL>
+	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/limnoria-irc.xml</TemplateURL>
 	<Icon>https://nephatrine.net/images/docker/limnoria-irc.png</Icon>
 
 	<Beta>False</Beta>
