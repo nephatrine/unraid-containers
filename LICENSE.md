@@ -2,7 +2,7 @@
 
 ______________________________________________________________________
 
-- **Copyright © 2023-2025 Daniel Wolf \<<nephatrine@gmail.com>>**
+- **Copyright © 2019-2025 Daniel Wolf \<<nephatrine@gmail.com>>**
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
