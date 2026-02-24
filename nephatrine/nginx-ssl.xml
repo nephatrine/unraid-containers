@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 
+SPDX-FileCopyrightText: 2019-2025 Daniel Wolf <nephatrine@gmail.com>
+SPDX-License-Identifier: ISC
+-->
 <Container version="2">
 	<Name>nginx-ssl</Name>
 	<Repository>nephatrine/nginx-ssl</Repository>
