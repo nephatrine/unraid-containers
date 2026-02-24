@@ -3,10 +3,10 @@
 Just paste one of these two URLs into **Docker Repositories** on the **Docker**
 tab:
 
-~~~
+```
 https://code.nephatrine.net/NephNET/unraid-containers
 https://github.com/nephatrine/unraid-containers
-~~~
+```
 
 You should be able to find the templates when you add a new container.
 
@@ -34,8 +34,9 @@ Beginning with Unraid 6.10.0-rc1, the entire Template Repositories section has b
   2. save the xml's within /config/plugins/community.applications/private/nephatrine on the flash drive and use CA to manage them (If not categorized, they will appear within the Private Category)
 ```
 
-I believe there may be a third option, but I don't have a fresh unRAID install to test with:
+I believe there may be a third option, but I don't have a fresh unRAID install
+to test with:
 
-```bash
+```sh
 echo 'https://code.nephatrine.net/NephNET/unraid-containers' >>/config/plugins/dockerMan/template-repos
 ```
