@@ -4,30 +4,24 @@ SPDX-FileCopyrightText: 2023-2026 Daniel Wolf <nephatrine@gmail.com>
 SPDX-License-Identifier: ISC
 -->
 <Container version="2">
-	<Name>gitea-runner</Name>
-	<Repository>nephatrine/gitea-runner</Repository>
-	<Registry>https://hub.docker.com/r/nephatrine/gitea-runner/</Registry>
-
-	<Network>bridge</Network>
-	<Privileged>false</Privileged>
-
-	<Support>https://code.nephatrine.net/NephNET/docker-gitea-act/issues</Support>
-	<Project>https://gitea.com/gitea/act_runner</Project>
-	<Overview>Gitea-Runner</Overview>
-	<TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/gitea-runner.xml</TemplateURL>
-	<Icon>https://nephatrine.net/images/docker/gitea-runner.png</Icon>
-
-	<Beta>False</Beta>
-	<Date>2025-05-18</Date>
-
-	<Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-	<Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-	<Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
-
-	<Config Name="Gitea Instance" Target="GITEA_INSTANCE_URL" Default="https://try.gitea.io/" Description="Configuration Variable: GITEA_INSTANCE_URL" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-	<Config Name="Runner Token" Target="GITEA_RUNNER_REGISTRATION_TOKEN" Default="" Description="Configuration Variable: GITEA_RUNNER_REGISTRATION_TOKEN" Type="Variable" Display="always" Required="true" Mask="true"></Config>
-	<Config Name="Runner Name" Target="GITEA_RUNNER_NAME" Default="" Description="Configuration Variable: GITEA_RUNNER_NAME" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-
-	<Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/gitea-runner" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"></Config>
-	<Config Name="Docker Mount" Target="/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="Container Path: /run/docker.sock" Type="Path" Display="advanced" Required="true"></Config>
+  <Name>gitea-runner</Name>
+  <Repository>nephatrine/gitea-runner</Repository>
+  <Registry>https://hub.docker.com/r/nephatrine/gitea-runner/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://code.nephatrine.net/NephNET/docker-gitea-runner/issues</Support>
+  <Project>https://gitea.com/gitea/runner</Project>
+  <Overview>Gitea-Runner</Overview>
+  <TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/gitea-runner.xml</TemplateURL>
+  <Icon>https://nephatrine.net/images/docker/gitea-runner.png</Icon>
+  <Beta>False</Beta>
+  <Date>2026-07-04</Date>
+  <Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Mount Owner UID" Target="PUID" Default="1000" Description="Configuration Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Mount Owner GID" Target="PGID" Default="100" Description="Configuration Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Gitea Instance" Target="GITEA_INSTANCE_URL" Default="https://demo.gitea.com" Description="Configuration Variable: GITEA_INSTANCE_URL" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Runner Token" Target="GITEA_RUNNER_REGISTRATION_TOKEN" Default="" Description="Configuration Variable: GITEA_RUNNER_REGISTRATION_TOKEN" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Runner Name" Target="GITEA_RUNNER_NAME" Default="" Description="Configuration Variable: GITEA_RUNNER_NAME" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Configuration Mount" Target="/mnt/config" Default="/mnt/user/appdata/gitea-runner" Mode="rw" Description="Container Path: /mnt/config" Type="Path" Display="always" Required="true"/>
+  <Config Name="Docker Mount" Target="/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="Container Path: /run/docker.sock" Type="Path" Display="advanced" Required="true"/>
 </Container>
