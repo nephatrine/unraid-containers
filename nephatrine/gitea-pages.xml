@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+SPDX-FileCopyrightText: 2026 Daniel Wolf <nephatrine@gmail.com>
+SPDX-License-Identifier: ISC
+-->
+<Container version="2">
+  <Name>gitea-pages</Name>
+  <Repository>nephatrine/gitea-pages</Repository>
+  <Registry>https://hub.docker.com/r/nephatrine/gitea-pages/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://code.nephatrine.net/NephNET/docker-gitea-pages/issues</Support>
+  <Project>https://github.com/deadnews/gitea-pages</Project>
+  <Overview>Gitea-Pages</Overview>
+  <TemplateURL>https://code.nephatrine.net/nephatrine/unraid-containers/raw/branch/master/nephatrine/gitea-pages.xml</TemplateURL>
+  <Icon>https://nephatrine.net/images/docker/gitea-pages.png</Icon>
+  <Beta>False</Beta>
+  <Date>2026-07-04</Date>
+  <Config Name="System Timezone" Target="TZ" Default="America/New_York" Description="Configuration Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Pages Branch" Target="GITEA_PAGES_BRANCH" Default="static-pages" Description="Configuration Variable: GITEA_PAGES_BRANCH" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Gitea Server" Target="GITEA_PAGES_SERVER" Default="https://demo.gitea.com/" Description="Configuration Variable: GITEA_PAGES_SERVER" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Gitea Token" Target="GITEA_PAGES_TOKEN" Default="" Description="Configuration Variable: GITEA_PAGES_TOKEN" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="HTTP Port" Target="8000" Default="8000" Mode="tcp" Description="Container Port: 8000/tcp" Type="Port" Display="always" Required="true"/>
+</Container>
